@@ -7,35 +7,37 @@
 
     <link rel="stylesheet" href="stylesheets/styles.css">
     <link rel="stylesheet" href="stylesheets/pygment_trac.css">
-    <script src="javascripts/scale.fix.js"></script>
     <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
-    <!--[if lt IE 9]>
-    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-    <![endif]-->
   </head>
   <body>
-    <div class="wrapper">
       <header>
-        <h1 class="header">{{page.title}}</h1>
-        <p class="header">
-          A Gentle, Illustrated Guide to building Web Applications in Ruby by <a
-          href="http://codeunion.io/">Codeunion</a></p>
-
-        <ul>
-          <li><a href="/a-gentle-introduction-to-computer-programming.html">A Gentle
-          Introduction to Computer Programming</a></li>
-          <li><a class="buttons github" href="https://github.com/codeunion/overheard-guide">View On GitHub</a></li>
-        </ul>
-
-        <p class="header">This project is maintained by <a class="header name" href="https://github.com/codeunion">codeunion</a></p>
-
+        <h1>{{page.title}}</h1>
+        {% if page.subtitle %}
+          <h5>{{page.subtitle}}</h5>
+        {% endif %}
       </header>
-      <section>
-        <h3>{{ page.title }}</h3>
-        {{ content }}
-      </section>
+      <main>
+
+        <nav>
+          <ul>
+            <li><a href="index.html">Introduction</a></li>
+            <li><a href="a-gentle-introduction-to-computer-programming.html">A Gentle Introduction to Computer Programming</a></li>
+          </ul>
+        </nav>
+
+        <section class="content">
+          {{ content }}
+        </section>
+
+      </main>
+
       <footer>
-        <p><small>Hosted on <a href="http://pages.github.com">GitHub Pages</a> using the Dinky theme</small></p>
+        <p>Written and Published by <a
+          href="https://codeunion.io">CodeUnion.io</a>. This guide is licensed
+          under a <a rel="license"
+            href="http://creativecommons.org/licenses/by-nc-sa/4.0/">Creative
+            Commons Attribution-NonCommercial-ShareAlike 4.0 International
+            License</a>.</p>
       </footer>
     </div>
     <!--[if !IE]><script>fixScale(document);</script><![endif]-->

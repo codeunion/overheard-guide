@@ -1,0 +1,27 @@
+@import 'bourbon/bourbon'; // or 'bourbon' when in Rails
+@import 'base/base';
+@import 'neat/neat'; // or 'neat' when in Rails
+
+body, main {
+  @include outer-container;
+}
+
+main {
+  nav { @include span-columns(3); }
+  section.content {
+    @include span-columns(9);
+
+    ul { @extend %default-ul }
+    ol { @extend %default-ol }
+  }
+}
+
+header, footer {
+  @include shift(3);
+  @include span-columns(9);
+}
+
+h5 {
+  font-weight: normal;
+  font-style: italic;
+}

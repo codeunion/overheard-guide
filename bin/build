@@ -1,0 +1,6 @@
+#!/bin/bash
+
+set -e
+
+bin/sass --scss -I _sass _sass/style.scss stylesheets/styles.css
+bin/jekyll build
