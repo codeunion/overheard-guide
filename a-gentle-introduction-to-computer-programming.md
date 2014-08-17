@@ -54,7 +54,7 @@ understand people or machines:
   closely with designers and introduce ideas like [Google instant
   search](http://www.google.com/insidesearch/features/instant/about.html).
 
-* Balanced Programmers - Empathize with both users and machines. They are 
+* Balanced Programmers - Empathize with both users and machines. They are
   versatile, yet rare. It may take longer for skills to develop because of a
   lack of focus.
 
