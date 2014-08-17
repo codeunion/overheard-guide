@@ -6,17 +6,21 @@ tags:
   - learning-to-learn
 ---
 
-A common myth is computer programming is magic. Programmers are wizards or
+"Computer programming is magic!" they say. "Programmers are wizards or
 sorceresses floating in a darkened room, cackling while muttering incantations,
-and weaving spells that power everyday things like automobiles, facebook,
-medical devices, and airplanes.
+and weaving spells that power automobiles, facebook, medical devices, and even
+airplanes!"
 
-This is not true. Computer programming is like patiently guiding a very
-stubborn, very pedantic small child with limited vocabulary and life experience
-through a problem you barely understand yourself.
+This is a myth. Computer programming is patiently guiding a very stubborn, very
+pedantic small child with limited vocabulary and life experience through a
+problem you barely understand.
 
-The result of guiding a computer to solve a problem is known as a program.  All
-programs have three parts:
+This guidance is done by providing instructions to the computer using a
+programming language. Programming languages are human-friendly enough to be
+reasoned about as a person, while being rigid enough to be interpreted and
+followed by a computer. This set of instructions is called a program.
+
+All programs have three parts:
 
 * Outcomes - How a programs user is different because they use the program.
 * Interactions - How users work with the program.
@@ -35,6 +39,32 @@ it. They then communicate this to the machine with code.
 Empathizing with the computer is a difficult task.  Novice programmers must
 learn to build a solid understanding of how, what, and why the machine works
 without falling into a rabbit hole of incomprehensible detail.
+
+** Good programmers know their level of understanding**. I, personally, use 4
+levels to organize the topics and skills I have:
+
+* Completely Unkown - I may have heard of or read a book on this, but have zero
+  professional or personal experience with. I need assistance and guidance in
+  order to accomplish things in these skill areas or topics.  Pottery, visual
+  design, the C programming language, and machine learning go here for me.
+* Somewhat Unknown - I have a little bit of experience with this, or it has been
+  a while. I spend a quite a bit of time in documentation when working with
+  these skills or topics. PHP, Wordpress, user research, violin, or operations
+  engineering are all things that are somewhat unknown to me.
+* Somewhat Known - I have a reasonable amount of experience with this. I spend a
+  little bit of time in the documentation, but most of the time working
+  productively. Clojure, HTML, and CSS all fit in this category.
+* Very Known - Productivity flow. I reference documentation infrequently. I make
+  intuitive connections. Ruby and JavaScript web development fits squarely in
+  this realm for me.
+
+
+It's OK to leave skills or topics Completely Unknown. We can rely on practice,
+experience, working with others, etc. to groww concepts and skills from
+Completely Unknown to Somewhat Known over time. When a new topic or skill
+becomes both important and urgent, we can focus on that for a period of time to
+move it into Somewhat Known.
+
 
 ### What Should I Focus On?
 
